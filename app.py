@@ -23,7 +23,7 @@ social_environment = st.selectbox("Social Environment", ["Urban", "Rural"])
 fruit_veg = st.selectbox("Fruit & Vegetable Intake", ["Low", "Moderate", "High"])
 sugar_drinks = st.selectbox("Sugary Drinks Frequency", ["Rarely", "Sometimes", "Often"])
 processed_food = st.selectbox("Processed Food Frequency", ["Rarely", "Sometimes", "Often"])
-alcohol = st.selectbox("Alcohol Consumption", ["None", "Moderate", "Heavy"])
+alcohol = st.selectbox("Alcohol Consumption", ["Never", "Moderate", "Heavy"])
 sleep_duration = st.number_input("Sleep Duration (hours)", min_value=2.0, max_value=12.0, value=7.0)
 sleep_quality = st.selectbox("Sleep Quality", ["Poor", "Fair", "Good"])
 
